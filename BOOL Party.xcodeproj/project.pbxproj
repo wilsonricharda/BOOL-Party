@@ -27,7 +27,7 @@
 		13AAA37614227D3800F7BFC8 /* BOOL Party */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "BOOL Party"; sourceTree = BUILT_PRODUCTS_DIR; };
 		13AAA37A14227D3800F7BFC8 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		13AAA37D14227D3800F7BFC8 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		13AAA38014227D3800F7BFC8 /* BOOL Party-Prefix.pch */ = {isa = PBXFileReference; path = "BOOL Party-Prefix.pch"; sourceTree = "<group>"; };
+		13AAA38014227D3800F7BFC8 /* BOOL Party-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "BOOL Party-Prefix.pch"; sourceTree = "<group>"; };
 		13AAA38114227D3800F7BFC8 /* BOOL_Party.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = BOOL_Party.1; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -184,6 +184,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BOOL Party/BOOL Party-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
@@ -197,6 +198,7 @@
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "BOOL Party/BOOL Party-Prefix.pch";
+				GCC_TREAT_WARNINGS_AS_ERRORS = YES;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Release;
